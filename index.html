@@ -1,0 +1,64 @@
+<html>
+  <head>
+    <script src='/dist/main.js' defer></script>
+    <title>Create a Sandwich</title>
+    <style>
+         
+      body {
+        padding: 1rem;
+        font-family: 'Courier New', Courier, monospace;
+      }
+      ul {
+        cursor: pointer;
+      }
+      #starters-list li {
+        padding: 0.2rem;
+      }
+      .selected {
+        background-color: firebrick;
+        border-radius: 30px;
+      }
+      .selected a {
+        color: black;
+      }
+      
+      h2 {
+    background-color: cornflowerblue;
+    color: cornsilk;
+    color: black;
+  }
+  h1 {
+    background-color: firebrick;
+    color: chartreuse;
+
+  }
+  
+  * {
+  
+    justify-content: center;
+
+  }
+        </style>
+  </head>
+  <body>
+    <h1>Create a Sandwich</h1>
+    <main>
+      <section>
+        <h2>Bases</h2>
+        <ul id='starters-list'>
+        </ul>
+      </section>
+      <section>
+        <h2>Ingredients</h2>
+        <ul id='ingredients-list'>
+        </ul>
+      </section>
+      <section>
+        <h2>Built</h2>
+        <ul id='builts-list'>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
+
